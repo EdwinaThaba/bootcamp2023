@@ -9,11 +9,15 @@
 		<div class="contact-box">
 			<div class="left"></div>
 			<div class="right">
+				<td align="right" style="padding-right: 20vh; padding-top: 30px;"></td>
 				<h2>Contact Us</h2>
-				<input type="text" class="field" placeholder="Name and Surname">
-				<input type="text" class="field" placeholder="Email Address">
-				<input type="text" class="field" placeholder="Contact Details">
-				<button class="btn">Submit</button>
+				<form action="https://formspree.io/f/mbjeolvo" method="POST">
+				<input type="text" name="Name" placeholder="Name"autocomplete="off" require>
+				<input type="text" name="Email" placeholder="Email Address"autocomplete="off" required>
+				<input type="text" name="contact" placeholder="Contact Details"autocomplete="off" required>
+				<input type="text" name="message" placeholder="Message" autocomplete="off" required>
+				<button class="btn">Send Message</button>
+			</form>
 			</div>
 		</div>
 	</div>
